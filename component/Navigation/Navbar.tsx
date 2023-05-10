@@ -29,7 +29,7 @@ export default function WithSubnavigation() {
   return (
     <Box>
       <Flex
-        bg={useColorModeValue("white", "gray.800")}
+        bg={useColorModeValue("White", "gray.800")}
         color={useColorModeValue("gray.600", "white")}
         minH={"60px"}
         py={{ base: 2 }}
@@ -78,7 +78,7 @@ export default function WithSubnavigation() {
             fontSize={"sm"}
             fontWeight={400}
             variant={"link"}
-            href={"#"}
+            href={"/signin"}
           >
             Sign In
           </Button>
@@ -284,7 +284,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "About",
-    href: "/about",
+    href: "/abouts",
   },
   {
     label: "Community",

@@ -6,9 +6,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     <>
       <Box as="main">
         <Navbar />
-        <Container my={10} maxWidth="container.lg">
-          {children}
-        </Container>
+        <Container maxWidth="container.xl">{children}</Container>
       </Box>
     </>
   );

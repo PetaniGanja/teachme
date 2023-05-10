@@ -1,9 +1,13 @@
 import Layout from "../component/Main/Layout";
+import Jumbotron from "../component/Main/Jumbotron";
 
 export default function Home() {
   return (
-    <Layout>
-      <h1>Hello World</h1>
-    </Layout>
+    <>
+      <Layout>
+        <Jumbotron />
+        <h1>Home</h1>
+      </Layout>
+    </>
   );
 }
