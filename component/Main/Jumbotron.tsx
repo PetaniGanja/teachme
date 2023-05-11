@@ -9,6 +9,7 @@ import {
 // Here we have used react-icons package for the icon
 import { FaGithub } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
+          
 
 const Index = () => {
   return (
@@ -96,5 +97,7 @@ const Index = () => {
     </>
   );
 };
+
+
 
 export default Index;
