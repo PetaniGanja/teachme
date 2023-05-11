@@ -25,7 +25,7 @@ const SimpleSignIn = () => {
       <Center>
         <Stack spacing={4}>
           <Stack align="center">
-            <Heading fontSize="2xl">Sign in to your account</Heading>
+            <Heading fontSize="2xl">Sign in</Heading>
           </Stack>
           <VStack
             as="form"
